@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Read (All)</title>
+    <title>Shows</title>
     <link
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
       rel="stylesheet"
@@ -11,7 +11,7 @@
       crossorigin="anonymous"
     />
     {% load static %}
-    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+    <link rel="stylesheet" href="{% static 'style.css' %}" />
   </head>
   <body>
     <h1>All Shows</h1>
@@ -40,7 +40,7 @@
         </tr>
         {% endfor %}
       </tbody>
-      <a href="/shows/new">Add a Show!</a>
+      <a href="/shows/new">Add a Show</a>
     </table>
   </body>
 </html>
